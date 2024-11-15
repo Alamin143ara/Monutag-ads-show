@@ -1,0 +1,41 @@
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+#main-content {
+  text-align: center;
+}
+
+#ads-button-container {
+  margin-top: 20px;
+}
+
+#show-ads-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#show-ads-button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the ad container */
+#monitag-ad-container {
+  margin-top: 20px;
+  background-color: #ececec;
+  padding: 20px;
+  border-radius: 8px;
+  display: none; /* Hidden initially */
+}
