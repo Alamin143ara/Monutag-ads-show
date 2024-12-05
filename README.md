@@ -1,1 +1,0 @@
-# Monutag-ads-show
